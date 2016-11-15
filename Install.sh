@@ -122,7 +122,7 @@ if [ -d "$HOME/SmartMirror" ] ; then
 fi
 
 echo -e "\e[96mCloning SmartMirror ...\e[90m"
-if git clone https://github.com/SlyFoxStudios/SmartMirror.git; then 
+if git clone https://github.com/crazywolf132/SmartMirror.git; then 
 	echo -e "\e[92mCloning SmartMirror Done!\e[0m"
 else
 	echo -e "\e[91mUnable to clone SmartMirror."
